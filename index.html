@@ -11,8 +11,6 @@
 <body>
     <div class="particulas"></div>
 
-
-
     <nav class="Navegacao">
         <ul class="menu">
             <li>
@@ -61,47 +59,24 @@
                     </div>
             </div>
 
+        </div>
     </section>
 
     <section id="Contato" class="Contatos">
         <h2 class="Contatos-titulo">Entre em Contato</h2>
-
-        <form class="formulario-contato" id="formulario" onsubmit="enviarMensagem(event)">
-            <div class="grupo-form">
-                <input placeholder="Nome" class="campo-form" id="nome">
-                <input type="email" class="campo-email" placeholder="Seu e-mail" id="email" />
-            </div>
-            <div class="grupo-form">
-                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="6" id="mensagem"></textarea>
-            </div>
-            <button type="submit" class="botao-form"> Enviar Whatsapp</button>
-        </form>
         
-       
-        </form>
+        <p>Interessado em um projeto ou estágio? Envie-me uma mensagem!</p>
+
+        <a href="https://wa.me/5511969504334?text=Olá,%20Natan!%20Visitei%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." 
+           class="botao-form" target="_blank">
+            Falar por WhatsApp
+        </a>
+
     </section>
-
-    <script>
-function enviarMensagem(event) {
-    event.preventDefault();
-
-    const nome = document.getElementById('nome').value;
-    const email = document.getElementById('email').value;
-    const mensagem = document.getElementById('mensagem').value;
-    const telefone = '5511969504334'; // seu número com DDI +55 e DDD
-
-    const texto = `Olá! Me chamo ${nome}%0AEmail: ${email}%0A${mensagem}`;
-    const url = `https://wa.me/${telefone}?text=${texto}`;
-
-    window.open(url, '_blank');
-}
-</script>
-<footer>
-    <p>&copy; 
-        2025 Natan Evangelista. Todos os direitos reservados.</p>
-    </footer>
+    <footer>
+    <p>&copy; 2025 Natan Evangelista. Todos os direitos reservados.</p>
+</footer>
 
 </body>
-
 
 </html>
