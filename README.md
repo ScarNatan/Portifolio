@@ -48,4 +48,3 @@ Atualmente, estou focado em **Front-end** com HTML, CSS e JavaScript — mas tam
 
 ---
 
-⭐ *“A tecnologia não é o futuro — é o presente sendo construído agora.”*  
