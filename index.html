@@ -1,82 +1,158 @@
 <!DOCTYPE html>
-<html lang="Pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Natan-dev</title>
-    <link rel="stylesheet" href="Style.css">
+
+    <title>Natan | Desenvolvedor Front-end</title>
+    <meta name="description"
+        content="Portfólio de Natan, estudante de Análise e Desenvolvimento de Sistemas com foco em Front-end.">
+    <meta name="author" content="Natan">
+    <meta name="robots" content="index, follow">
+
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div class="particulas"></div>
 
-    <nav class="Navegacao">
-        <ul class="menu">
-            <li>
-                <a href="#inicio" class="menu-link">Início</a>
-            </li>
-            <li>
-                <a href="#sobre" class="menu-link">sobre</a>
-            </li>
-            <li>
-                <a href="#Projetos" class="menu-link">Projetos</a>
-            </li>
-            <li>
-                <a href="#Contato" class="menu-link">Contato</a>
-            </li>
-        </ul>
-    </nav>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav">
+            <h2 class="logo">Natan.dev</h2>
+        
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            <button id="theme-toggle" class="theme-btn">🌙</button>
+            </ul>
 
-    <main id="Inicio" class="cabeçario">
+            <!-- MENU MOBILE -->
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
-        <img src="/img/perfil.jpeg" alt="Foto de Natan-dev" class="foto-perfil">
-        <h1 class="h1">Natan Evangelista</h1>
-        <p class="cabeçario-sub-titulo">Futuro Desenvolvedor de sistemas</p>
+    <section id="home" class="hero reveal">
+  <div class="hero-content">
 
-    </main>
-    <section id="sobre" class="sobre">
-        <h2 class="sobre-titulo">Sobre mim</h2>
-        <div class="sobre-caixa">
-            <p class="sobre-paragrafo">
-            </p> Sou estudante de Análise e Desenvolvimento de Sistemas com foco em desenvolvimento front-end. Tenho experiência em HTML, CSS, JavaScript e Git. Estou me aprofundando em Node.js e busco uma oportunidade de estágio para aplicar meus conhecimentos e crescer profissionalmente.</p>
-                <a href="Curriculo.pdf" class="botao-curriculo" target="_blank">Baixar Currículo</a>
+    <div class="hero-text">
+      <h1>Olá, eu sou <span>Natan</span></h1>
+      <p>
+        Estudante de Análise e Desenvolvimento de Sistemas com foco em Front-end,
+        dados e soluções com IA.
+      </p>
+      <a href="#projects" class="btn">Ver Projetos</a>
+    </div>
 
-            </p>
+    <div class="hero-photo">
+      <img src="Gemini_Generated_Image_kn6zy7kn6zy7kn6z.png" alt="Foto de Natan">
+    </div>
+
+  </div>
+</section>
+
+    <section id="about" class="section reveal">
+        <h2>Sobre mim</h2>
+        <p>
+            Sou estudante de Análise e Desenvolvimento de Sistemas, com interesse em
+            desenvolvimento front-end, análise de dados e uso de inteligência artificial
+            como ferramenta de apoio à tomada de decisão.
+            Tenho facilidade para aprender, boa organização e busco constantemente
+            evoluir tecnicamente e profissionalmente.
+        </p>
+    </section>
+
+  
+    <section id="projects" class="section reveal">
+        <h2>Projetos</h2>
+
+        <div class="projects">
+            <a href="https://scarnatan.github.io/Nova-genius/" target="_blank" class="card">
+                <h3><p>Genius Hub </p></h3>
+                <p>Plataforma educacional colaborativa desenvolvida com foco em organização,
+    usabilidade e experiência do usuário.</p>
+            </a>
         </div>
     </section>
 
-    <section id="Projetos" class="Projetos">
-        <h2 class="Projetos-titulo">Projetos</h2>
-        <div class="Projetos-caixa">
+    <section id="skills" class="skills section reveal">
+        <h2>Minhas <span>Skills</span></h2>
 
-            <div class="projetos-card">
-                <img src="/img/Genius Hub img.jpg" alt="Projeto 1" class="Projeto-imagem">
-                <div class="caixa-texto-projetos">
-                    <h3 class="info-projetos">Plataforma Crowdsourcing</h3>
-                    <p class="paragrafo-projetos"> Plataforma de conexão entre empresas e alunos. Desenvolvida com HTML, CSS e JavaScript. Projeto de equipe da faculdade</p>
-                        <a href=" ">Segue o link</a>
-                    </div>
+        <div class="skills-grid">
+            <div class="skill-card html">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                <p>HTML</p>
             </div>
 
+            <div class="skill-card css">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                <p>CSS</p>
+            </div>
+
+            <div class="skill-card python">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                <p>Python</p>
+            </div>
+
+            <div class="skill-card excel">
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg">
+                <p>Excel</p>
+            </div>
+
+            <div class="skill-card powerbi">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg">
+                <p>Power BI</p>
+            </div>
+
+            <div class="skill-card data">
+                <img src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png">
+                <p>Dados</p>
+            </div>
+
+            <div class="skill-card ai">
+                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+                <p>IA Generativa</p>
+            </div>
+
+            <div class="skill-card git">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+                <p>Git</p>
+            </div>
+
+            <div class="skill-card github">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+                <p>GitHub</p>
+            </div>
         </div>
     </section>
-
-    <section id="Contato" class="Contatos">
-        <h2 class="Contatos-titulo">Entre em Contato</h2>
-        
-        <p>Interessado em um projeto ou estágio? Envie-me uma mensagem!</p>
-
-        <a href="https://wa.me/5511969504334?text=Olá,%20Natan!%20Visitei%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." 
-           class="botao-form" target="_blank">
-            Falar por WhatsApp
-        </a>
-
+    <section id="contact" class="section reveal">
+        <h2>Contato</h2>
+        <p>Email: <strong>natan.dev.work.26@gmail.com</strong></p>
+        <p>
+            <a href="https://www.linkedin.com/in/natan-evangelista-de-oliveira-034093241/" target="_blank">LinkedIn</a>
+            |
+            <a href="https://github.com/ScarNatan" target="_blank">GitHub</a>
+        </p>
     </section>
-    <footer>
-    <p>&copy; 2025 Natan Evangelista. Todos os direitos reservados.</p>
-</footer>
 
+    <footer class="footer">
+        <p>© 2026 - Natan Evangelista de Oliveira - Todos os direitos Reservados.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
