@@ -36,8 +36,6 @@ Atualmente, estou focado em **Front-end** com HTML, CSS e JavaScript — mas tam
 | Projeto | Descrição | Tecnologias |
 |----------|------------|--------------|
 | [**Genius Hub**](https://github.com/scarNatan/genius-hub) | Plataforma colaborativa entre alunos e empresas. | HTML, CSS, JS |
-| **Crowdsourcing Genius** | Página com busca, login e cadastro de alunos. | HTML, CSS |
-| **Área do Aluno – Genius Hub** | Sistema com upload de arquivos e imagem de perfil. | HTML, JS |
 
 ---
 
